@@ -9,6 +9,9 @@ If you have questions about the code, post them here with your name.
 -CHANGES MADE-
 - 3/6 Changed the dropdown boxes default to “A”- - Karl
 
+line 121 enter a "number" value. -- Tanner...
+
+
     <!-- 1. @Learning Suite ---INCOMPLETE---
         This is a group assignment so the group
         should only submit one. Make sure that
@@ -17,12 +20,13 @@ If you have questions about the code, post them here with your name.
         area for the assignment.
         Team Members Names:
         1. Karl Nordgren
-        2.
+        2. Tanner Sheide
         3.
         4.
         5.
         6.
         7.
+     
 
 
    <!-- 27. ---INCOMPLETE---
@@ -65,7 +69,7 @@ If you have questions about the code, post them here with your name.
                     GPA, clear the overall GPA and the last
                     30 credits GPA, reset all drop downs to
                     empty and the checkboxes to false, and
-                    then set focus to the IS202 drop down.
+                    then set focus to the IS201 drop down.
                     */
 
         function clearCircle() {
@@ -115,7 +119,7 @@ If you have questions about the code, post them here with your name.
              */
 
             if (IS201 * 0 === 0 || IS303 * 0 === 0 || ACC200 * 0 === 0 || FIN201 * 0 === 0 || MKT201 * 0 === 0 || overallGPA * 0 !== 0 || last30GPA * 0 !== 0) {
-                alert("You must select an item in each drop down and enter a value in the GPA text boxes!"); //21
+                alert("You must select an item in each drop down and enter a number value in the GPA text boxes!"); //21
             }
 
             classArray = [IS201, IS303, ACC200, FIN201, MKT201];
