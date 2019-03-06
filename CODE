@@ -35,6 +35,7 @@ If you have questions about the code, post them here with your name.
 <head>
     <meta charset="utf-8" />
     <title>Information Systems Chances Calculator</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
 
         var a = 4;
