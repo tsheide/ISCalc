@@ -7,7 +7,8 @@ If you have questions about the code, post them here with your name.
 1.Is this on GitHub
 
 -CHANGES MADE-
-- 3/6 Changed the dropdown boxes default to “A”- - Karl
+- 3/6 Changed the dropdown boxes default to “A”- - Shulamy
+- 3/6 Changed the GPA input to not have parse int. - Tanner
 
     <!-- 1. @Learning Suite ---INCOMPLETE---
         This is a group assignment so the group
@@ -91,9 +92,9 @@ If you have questions about the code, post them here with your name.
 
         function calcGPA() {
             //13. @ <script> COMPLETE Text box to enter BYU Overall GPA --
-            var overallGPA = document.getElementById("overallGPA").value;
+            var overallGPA = parseFloat(document.getElementById("overallGPA").value);
             //14. @ <script> Text box to enter BYU Last 30 credits GPA
-            var last30GPA = document.getElementById("last30GPA").value;
+            var last30GPA = parseFloat(document.getElementById("last30GPA").value);
             var IS201 = (document.getElementById("IS201").value);
             var IS303 = (document.getElementById("IS303").value);
             var ACC200 = (document.getElementById("ACC200").value);
@@ -709,5 +710,3 @@ If you have questions about the code, post them here with your name.
             Karl Nordgren -->
 
 </html>
-
-
